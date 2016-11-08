@@ -2,6 +2,11 @@
 server:
     contextPath: '/abc'
 ---
+environments:
+    test:
+        server:
+            contextPath: '/'
+---
 hibernate:
     cache:
         queries: false
